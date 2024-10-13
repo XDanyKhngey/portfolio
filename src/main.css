@@ -1,0 +1,47 @@
+@import url("https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap");
+
+* {
+  font-family: "Kantumruy Pro", sans-serif;
+}
+
+ul {
+  padding: 0;
+  margin: 0 !important;
+}
+
+ul li {
+  list-style-type: none;
+}
+
+html {
+  overflow: scroll;
+  overflow-x: hidden;
+}
+::-webkit-scrollbar {
+  width: 0; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
+/* Optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+  background: #ff0000;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* Fade Transition Styles */
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s ease; /* Duration and easing for the transition */
+}
+
+.fade-enter, .fade-leave-to /* .fade-leave-active in <2.1.8 */ {
+  opacity: 0; /* Start at 0 opacity */
+}
+
+.fade-enter-to,
+.fade-leave {
+  opacity: 1; /* End at full opacity */
+}
