@@ -13,7 +13,7 @@
     <br />
     <!-- Loader -->
     <div v-if="loading" class="loader_container" id="spinner">
-      <div class="spinner-border text-primary" role="status">
+      <div class="spinner-border text-success" role="status">
         <span class="visually-hidden">Loading...</span>
       </div>
     </div>
