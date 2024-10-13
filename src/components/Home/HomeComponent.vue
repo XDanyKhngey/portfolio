@@ -113,8 +113,8 @@ onMounted(() => {
       "
       class="text-center text-white"
     >
-      Find this project on
-      <a class="text-white" href="https://github.com/XDanyKhngey/dany_portfolio"
+      {{ $t('find_p_on') }}
+      <a target="_blank" class="text-white" href="https://github.com/XDanyKhngey/dany_portfolio"
         >Github</a
       >
     </p>
