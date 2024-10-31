@@ -111,7 +111,7 @@ h1 {
 export default {
   data() {
     return {
-      api_url: "https://api.songkum.sovandy.site/v1/task",
+      api_url: "https://api.songkum.sovandy.site/v1/tasks",
       //api_url: "https://jsonplaceholder.typicode.com/todos",
       Data: [],
       loading: false, // Add this line
